@@ -15,17 +15,14 @@ Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
 Display the rank of the matrix as the output.
 ## Program:
 ```python
-#Program to find the rank of a matrix.
-#Developed by: Mohamed Riyaz Ahamed
-#RegisterNumber: 24900085
-
 import numpy as np
-A = [[1,2,3],[3,6,9]]
-sln = np.linalg.matrix_rank(A)
-print(sln)
+a = np.array( [[3,2,5],[1,1,2],[3,3,6]])
+solution=np.linalg.matrix_rank(a)
+print(solution)
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/35495e8c-9ca2-42e7-ba60-fbda0b421f46)
+![image](https://github.com/user-attachments/assets/2095f9a6-200b-4034-a039-8874c9b7c752)
+
 
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
